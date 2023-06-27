@@ -20,7 +20,7 @@ while True:
     smtp_server = "smtp.gmail.com"
     email_from = "mertirlanda@gmail.com"
     email_to = "mertyuceyurt58@gmail.com"
-    pswd = "kelugbwjnkslaxme"
+    pswd = "***"
     sent_before = 0
     raw_message = str(arduino.readline()) # Takes the message sent by Arduino
     message = raw_message[raw_message.index("'")+1 : raw_message.index("r")-1] # Takes out the important part
